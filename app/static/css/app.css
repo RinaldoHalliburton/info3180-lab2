@@ -1,3 +1,110 @@
-body {
-    padding-top: 5rem;
+
+.banner{
+    background-color: rgb(52, 179, 164);
+    width: 50%;
+    max-width: 800px;  
+    height: 350px; 
+    margin: 65px auto;
+    margin-bottom: 0;
+    padding: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+    text-align: center; 
+    color: white;
+    overflow: auto;
+   
+}
+
+.info{
+    background-color: rgb(209, 225, 219);
+    width: 50%;
+    max-width: 800px;  
+    height: 300px; 
+
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    text-align: center; 
+   
+
+    overflow: auto;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 50px; 
+    text-align: center; 
+    margin: 0;
+    
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.3),  
+        -2px -2px 4px rgba(0, 0, 0, 0.3), 
+        4px 4px 6px rgba(0, 0, 0, 0.2);  
+}
+
+p{
+    margin: 0;
+}
+
+#info-para{
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    color: rgb(36, 34, 34);
+    margin: 20px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 40px; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(51, 58, 56);
+}
+
+.label {
+    font-size: 14px;
+    color: gray;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(137, 210, 182);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(115, 190, 165);
 }

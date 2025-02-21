@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block main %}
+<div class="banner">
+  <img src="{{ url_for('static', filename='man.jpg') }}" alt="Man Image" />
+  <h1>Rinaldo Halliburton</h1>
+  <p>@rhalliburton</p>
+  <p>Morant Bay, Jamaica</p>
+  <p>{{date_joined}}</p>
+</div>
+<div class="info">
+  <p id="info_para">
+    Hi! &#128075;. I am a coder and content creator. I love music and video
+    games. Feel free to contact me for project assistance at
+    rinaldohalliburton7917@gmail.com
+  </p>
+  <div class="stats-container">
+    <div class="stat">
+      <span class="number">| 20 |</span>
+      <span class="label">Posts</span>
+    </div>
+    <div class="stat">
+      <span class="number">| 501 |</span>
+      <span class="label">Following</span>
+    </div>
+    <div class="stat">
+      <span class="number">| 11.2k |</span>
+      <span class="label">Followers</span>
+    </div>
+  </div>
+  <div>
+    <button>Follow</button>
+  </div>
+</div>
+{% endblock %}
